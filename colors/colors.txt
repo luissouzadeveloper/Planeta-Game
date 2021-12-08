@@ -1,0 +1,2 @@
+Azul meio escuro: #3d79c2
+Azul mais claro: #6394cf
