@@ -1,0 +1,122 @@
+/*Reset*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Fontes*/
+@font-face{
+    font-family: Coolvetica;
+    src: url(../fonts/coolvetica\ condensed\ rg.otf);
+}
+@font-face{
+    font-family: Louis;
+    src: url(../fonts/Louis\ George\ Cafe\ Bold.ttf);
+}
+
+/*Variáveis*/
+:root{
+    --cor1: #3d79c2;
+    --cor2: #6394cf;
+    --cor3: #fff;
+    --cor4: #000;
+
+    --fonte1: 'Coolvetica';
+    --fonte2: 'Louis';
+}
+
+body{
+    font-size: 1.2em;
+}
+
+/*Menu*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cor1);
+    padding: 7px;
+}
+
+nav > a{
+    color: var(--cor3);
+    text-decoration: none;
+    font-family: var(--fonte2);
+}
+
+/*Cabeçalho*/
+header{
+    background-color: var(--cor2);
+    padding: 10px 0;
+}
+
+header > img{
+    display: block;
+    margin: auto;
+}
+
+/*Seção 1*/
+section{
+    padding: 10vh 30px 10vh;
+}
+
+/*Título principal*/
+main > h1{
+    font-family: var(--fonte1);
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+/*Parágrafo da seção 1*/
+section > p{
+    color: var(--cor3);
+    font-family: var(--fonte2);
+    text-align: justify;
+}
+
+/*Seção 1 - Imagem*/
+#img-fundo{
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/*Corpo da página*/
+main{
+    margin: 20px auto;
+}
+
+/*Título da seção de jogos*/
+section.lista > h2{
+    font-family: var(--fonte1);
+    font-weight: bold;
+    margin: 20px 0;   
+}
+
+section.lista{
+    max-width: 430px;
+    margin: auto;
+}
+
+/*Parágrafo*/
+.lista > p{
+    color: var(--cor4);
+    text-align: justify;
+}
+
+/*Descrição da imagem*/
+.lista > picture > figcaption{
+    margin-bottom: 10px;
+    font-family: var(--fonte1);
+}
+
+.lista > picture > figcaption > a{
+    color: var(--cor4);
+    text-decoration: none;
+}
+
+
+
+
+
