@@ -116,6 +116,15 @@ section.lista{
     text-decoration: none;
 }
 
+/*Telas médias*/
+/*Tablets*/
+@media (min-width: 768px){
+    section.lista{
+        max-width: 750px;
+        margin: auto;
+    }
+}
+
 
 
 
