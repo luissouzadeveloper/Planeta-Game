@@ -41,6 +41,14 @@ nav > a{
     color: var(--cor3);
     text-decoration: none;
     font-family: var(--fonte2);
+    transition: 1s;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    background-color: var(--cor3);
+    color: var(--cor2);
+    margin: 0;
 }
 
 /*Cabeçalho*/
@@ -107,7 +115,7 @@ section.lista{
 }
 
 /*Imagem*/
-.lista > picture > img{
+.lista > img{
     display: block;
     margin: auto;
     width: 100%;
@@ -115,15 +123,20 @@ section.lista{
 }
 
 /*Descrição da imagem*/
-.lista > picture > figcaption{
+.lista > figcaption{
     text-align: center;
     margin-bottom: 10px;
     font-family: var(--fonte1);
 }
 
-.lista > picture > figcaption > a{
-    color: var(--cor4);
+.lista > figcaption > a{
+    color: var(--cor2);
     text-decoration: none;
+    transition: 1s;
+}
+
+.lista > figcaption > a:hover{
+    text-decoration: underline;
 }
 
 footer{
