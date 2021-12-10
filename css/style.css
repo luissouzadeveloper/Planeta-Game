@@ -126,6 +126,16 @@ section.lista{
     text-decoration: none;
 }
 
+footer{
+    background-color: var(--cor1);
+}
+
+footer > p{
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--fonte1);
+}
+
 /*Telas médias*/
 /*Tablets*/
 @media (min-width: 768px){
