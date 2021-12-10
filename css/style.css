@@ -106,13 +106,15 @@ section.lista{
 }
 
 /*Imagem*/
-.lista > picture{
+.lista > picture > img{
     display: block;
     margin: auto;
+    border-radius: 10px;
 }
 
 /*Descrição da imagem*/
 .lista > picture > figcaption{
+    text-align: center;
     margin-bottom: 10px;
     font-family: var(--fonte1);
 }
