@@ -105,6 +105,12 @@ section.lista{
     text-align: justify;
 }
 
+/*Imagem*/
+.lista > picture{
+    display: block;
+    margin: auto;
+}
+
 /*Descrição da imagem*/
 .lista > picture > figcaption{
     margin-bottom: 10px;
