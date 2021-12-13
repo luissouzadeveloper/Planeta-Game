@@ -49,6 +49,7 @@ nav > a:hover{
     background-color: var(--cor3);
     color: var(--cor2);
     margin: 0;
+    padding: 0;
 }
 
 /*Cabeçalho*/
@@ -72,7 +73,7 @@ main > h1{
     font-family: var(--fonte1);
     font-weight: bold;
     text-align: center;
-    margin: 10px;
+    margin: 15px;
 }
 
 /*Parágrafo da seção 1*/
@@ -100,7 +101,7 @@ main{
 section.lista > h2{
     font-family: var(--fonte1);
     font-weight: bold;
-    margin: 20px 0;   
+    margin: 15px 0;   
 }
 
 section.lista{
@@ -120,12 +121,13 @@ section.lista{
     margin: auto;
     width: 100%;
     border-radius: 10px;
+    box-shadow: 2px 2px 10px var(--cor4);
 }
 
 /*Descrição da imagem*/
 .lista > figcaption{
     text-align: center;
-    margin-bottom: 10px;
+    margin: 10px 10px;
     font-family: var(--fonte1);
 }
 
