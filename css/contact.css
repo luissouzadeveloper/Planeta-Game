@@ -1,0 +1,125 @@
+/*Reset*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Fontes*/
+@font-face{
+    font-family: Coolvetica;
+    src: url(../fonts/coolvetica\ condensed\ rg.otf);
+}
+@font-face{
+    font-family: Louis;
+    src: url(../fonts/Louis\ George\ Cafe\ Bold.ttf);
+}
+
+/*Variáveis*/
+:root{
+    --cor1: #3d79c2;
+    --cor2: #6394cf;
+    --cor3: #fff;
+    --cor4: #000;
+
+    --fonte1: 'Coolvetica';
+    --fonte2: 'Louis';
+}
+
+body{
+    font-size: 1.2em;
+}
+
+/*Menu*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cor1);
+    padding: 7px;
+}
+
+nav > a{
+    color: var(--cor3);
+    text-decoration: none;
+    font-family: var(--fonte2);
+    transition: 1s;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    background-color: var(--cor3);
+    color: var(--cor2);
+    margin: 0;
+    padding: 0;
+}
+
+/*Cabeçalho*/
+header{
+    background-color: var(--cor2);
+    padding: 10px 0;
+}
+
+header > img{
+    display: block;
+    margin: auto;
+}
+
+/*Corpo da página*/
+.corpo{
+    max-width: 430px;
+    margin: 20px auto;
+}
+
+/*Título*/
+.corpo > h1{
+    font-family: var(--fonte1);
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Caixa*/
+#caixa{
+    margin: 20px auto;
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*Imagem*/
+#caixa > a > img{
+    display: block;
+    margin: auto;
+}
+
+/*Título da imagem*/
+figcaption{
+    margin: 10px;
+    color: var(--cor3);
+    text-align: center;
+}
+
+/*Descrição*/
+figcaption > a{
+    text-align: justify;
+    color: var(--cor3);
+    font-family: var(--fonte2);
+    text-decoration: none;
+    transition: 1s;
+}
+
+figcaption > a:hover{
+    text-decoration: underline;
+    background-color: var(--cor3);
+    color: var(--cor2);
+}
+
+/*Rodapé*/
+footer{
+    background-color: var(--cor1);
+    margin-top: 100px;
+}
+
+footer > p{
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--fonte1);
+}
