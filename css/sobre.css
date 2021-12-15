@@ -63,82 +63,26 @@ header > img{
     margin: auto;
 }
 
-/*Seção 1*/
-section{
-    padding: 10vh 30px 10vh;
-}
-
-/*Título principal*/
-main > h1{
-    font-family: var(--fonte1);
-    font-weight: bold;
-    text-align: center;
-    margin: 15px;
-}
-
-/*Parágrafo da seção 1*/
-section > p{
-    color: var(--cor3);
-    font-family: var(--fonte2);
-    text-align: justify;
-}
-
-/*Seção 1 - Imagem*/
-#img-fundo{
-    background-image: url(../img/fundo.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
 /*Corpo da página*/
 main{
     margin: 20px auto;
 }
 
-/*Título da seção de jogos*/
-section.lista > h2{
-    font-family: var(--fonte1);
-    font-weight: bold;
-    margin: 15px 0;   
-}
-
-section.lista{
+/*Conteúdo*/
+section{
     max-width: 430px;
     margin: auto;
-}
-
-/*Parágrafo*/
-.lista > p{
-    color: var(--cor4);
     text-align: justify;
+    font-family: var(--fonte2);
+    line-height: 1.5;
 }
 
-/*Imagem*/
-.lista > img{
-    display: block;
-    margin: auto;
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px var(--cor4);
-}
-
-/*Descrição da imagem*/
-.lista > figcaption{
-    text-align: center;
-    margin: 10px 10px;
+/*Título principal e subtítulo*/
+section > h1, h2{
     font-family: var(--fonte1);
-}
-
-.lista > figcaption > a{
-    color: var(--cor2);
-    text-decoration: none;
-    transition: 1s;
-}
-
-.lista > figcaption > a:hover{
-    text-decoration: underline;
+    margin: 20px 0;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 /*Rodapé*/
@@ -155,13 +99,9 @@ footer > p{
 /*Telas médias*/
 /*Tablets*/
 @media (min-width: 768px){
-    section.lista{
+    section{
         max-width: 750px;
         margin: auto;
     }
+
 }
-
-
-
-
-
