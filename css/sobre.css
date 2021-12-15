@@ -76,6 +76,7 @@ section{
     text-align: justify;
     font-family: var(--fonte2);
     line-height: 1.5;
+    padding:20px;
 }
 
 /*Título principal e subtítulo*/
