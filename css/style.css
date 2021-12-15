@@ -81,6 +81,7 @@ section > p{
     color: var(--cor3);
     font-family: var(--fonte2);
     text-align: justify;
+    line-height: 1.5;
 }
 
 /*Seção 1 - Imagem*/
@@ -113,6 +114,7 @@ section.lista{
 .lista > p{
     color: var(--cor4);
     text-align: justify;
+    line-height: 1.5;
 }
 
 /*Imagem*/
