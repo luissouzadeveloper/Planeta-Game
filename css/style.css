@@ -115,6 +115,7 @@ section.lista{
     color: var(--cor4);
     text-align: justify;
     line-height: 1.5;
+    padding: 20px;
 }
 
 /*Imagem*/
